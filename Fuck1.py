@@ -561,7 +561,7 @@ class PreparedRequest(RequestEncodingMixin, RequestHooksMixin):
             self.register_hook(event, hooks[event])
 
 
-class Response
+class Response:
     """The :class:`Response <Response>` object, which contains a
     server's response to an HTTP request.
     """
