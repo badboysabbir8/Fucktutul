@@ -23,7 +23,7 @@ from urllib3.exceptions import (
 from urllib3.fields import RequestField
 from urllib3.filepost import encode_multipart_formdata
 from urllib3.util import parse_url
-from compat import (
+(
     Callable,
     JSONDecodeError,
     Mapping,
