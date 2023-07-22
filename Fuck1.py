@@ -561,7 +561,7 @@ class PreparedRequest(RequestEncodingMixin, RequestHooksMixin):
             self.register_hook(event, hooks[event])
 
 
-class Response:
+class Response
     """The :class:`Response <Response>` object, which contains a
     server's response to an HTTP request.
     """
@@ -774,8 +774,7 @@ class Response:
         return chunks
 
     def iter_lines(
-        self, chunk_size=ITER_CHUNK_SIZE, decode_unicode=False, delimiter=None
-    ):
+        ):
         """Iterates over the response data, one line at a time.  When
         stream=True is set on the request, this avoids reading the
         content at once into memory for large responses.
