@@ -1,8 +1,5 @@
 requests.models
-~~~~~~~~~~~~~~~
-
 This module contains the primary objects that power Requests.
-"""
 class RequestEncodingMixin:
     @property
     def path_url(self):
